@@ -1,0 +1,106 @@
+body {
+    background-color: gray;
+
+}
+
+#top-h1 {
+    margin: auto;
+    text-align: center;
+    padding-right: 550px;
+
+}
+
+#top-h2 {
+
+    text-align: center;
+    font-size: 25px;
+    padding-right: 100px;
+}
+
+#box-1 {
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    font-size: 30px;
+    padding-left: 22px;
+    padding-top: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 12px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+li a.selected{
+    font-weight: bolder;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    position: relative;
+    top: -24px;
+    height: 3px;
+    background: black;
+}
+
+.search-text {
+    width: 600px;
+    height: 30px;
+
+    margin-left: 25px;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+.boxes {
+    overflow: hidden;
+    padding-bottom: 1px;
+    padding-left: 25px;
+    font-size: 10px;
+
+
+
+}
+
+.sections div {
+
+    background: white;
+    float: left;
+    height: 110px;
+    width: 120px;
+    margin: 15px;
+    border: 1px solid black;
+
+}
+
+.sections {
+  padding: 20px;
+}
+
+.data_result{
+    margin:auto;
+    font-size:15px;
+    font-weight:bold;
+}
+
