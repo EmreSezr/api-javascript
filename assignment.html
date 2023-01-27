@@ -1,0 +1,60 @@
+<html lang="tr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="programming">
+    <link rel="stylesheet" href="./stylebi.css">
+    <title>assignment</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="top-h1">Veriler</h1>
+        <p id="top-h2">Görüntülemek istediğiniz veriyi aşağıdan seçebilirsiniz.</p>
+        <div id="box-1">
+            <br>
+            <div class="nav">
+                <ul>
+                    <li><a href="#" id="a_post">Posts</a></li>
+
+                    <li><a href="#" id="a_album">Albums</a></li>
+
+                    <li><a href="#" id="a_photo">Photos</a></li>
+                </ul>
+                <hr>
+                <div class="search">
+                    <form action="">
+                        <input id="post_search" class="search-text" type="text" autocomplete="off"
+                            placeholder="Search Post..." name="search">
+                        <input id="album_search" class="search-text" type="text" autocomplete="off"
+                            placeholder="Search Album..." name="search" style="display:none">
+                        <input id="photo_search" class="search-text" type="text" autocomplete="off"
+                            placeholder="Search Photo..." name="search" style="display:none;">
+
+                    </form>
+                </div>
+                <div class="boxes">
+                    <div id='post_section' class="sections">
+
+                    </div>
+                    <div id='album_section' class="sections" style="display:none;">
+
+                    </div>
+                    <div id='photo_section' class="sections" style="display:none;">
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
